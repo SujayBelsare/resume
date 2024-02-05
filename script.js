@@ -1,13 +1,28 @@
 function changeMode() {
     var element = document.body;
     var image = document.getElementById("about_me_main_photo")
+    var logo1 = document.getElementById("github_logo")
+    var logo2 = document.getElementById("insta_logo")
+    var logo3 = document.getElementById("linkedin_logo")
+    var logo4 = document.getElementById("mail_logo")
+
     
     if (localStorage.getItem('sliderPosition') === 'right') {
         element.classList.add("dark-mode");
         image.src = "images/sujay2.jpg";
-    } else {
+        logo1.src = "images/github2.png"
+        logo2.src = "images/instagram2.png"
+        logo3.src = "images/linkedin2.png"
+        logo4.src = "images/mail2.png"
+    }
+    else
+    {
         element.classList.remove("dark-mode");
         image.src = "images/sujay1.jpg";
+        logo1.src = "images/github1.png"
+        logo2.src = "images/instagram1.png"
+        logo3.src = "images/linkedin1.png"
+        logo4.src = "images/mail1.png"
     }
 }
 
