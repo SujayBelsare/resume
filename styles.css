@@ -6,11 +6,17 @@
 
 body {
     margin: 0;
-    background-color: rgb(255, 251, 235);
+    background-color: rgb(207, 207, 207);
 }
 
 .logo {
     margin: 0 0 0 6%;
+}
+
+main {
+    margin:0;
+    padding: 0;
+    display: flex;
 }
 
 .navigation_bar {
@@ -113,7 +119,6 @@ body {
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    transition: .4s;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,3 +169,20 @@ input:checked + .slider:before {
     border-radius: 20px;
 }
 
+.profile-picture {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    width: 22%;
+}
+
+.profile-picture img {
+    margin:0;
+    max-width: 100%;
+    height: auto;
+}

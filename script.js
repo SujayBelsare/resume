@@ -1,9 +1,13 @@
 function changeMode() {
     var element = document.body;
+    var image = document.getElementById("about_me_main_photo")
+    
     if (localStorage.getItem('sliderPosition') === 'right') {
         element.classList.add("dark-mode");
+        image.src = "images/sujay2.jpg";
     } else {
         element.classList.remove("dark-mode");
+        image.src = "images/sujay1.jpg";
     }
 }
 
