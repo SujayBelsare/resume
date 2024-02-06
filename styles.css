@@ -9,15 +9,14 @@ body {
     background-color: rgb(207, 207, 207);
 }
 
-.logo {
-    margin: 0 0 0 6%;
-}
-
-main {
+.main-container {
     margin:0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .navigation_bar {
     display: flex;
@@ -241,4 +240,34 @@ input:checked + .slider:before {
 .socials img {
     width: 30px; /* Adjust the width of the social logos */
     height: 30px; /* Adjust the height of the social logos */
+}
+
+
+.flex-container-for-academics {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-text-about-me-1 {
+    margin:0;
+}
+
+.academic-text-about-me-1 h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dark-mode .academic-text-about-me-1 h1 {
+    color: white;
+}
+
+.academic-text-about-me-1 p {
+    text-align: justify;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dark-mode .academic-text-about-me-1 p {
+    color: white;
 }
