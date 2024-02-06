@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Blog 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <script src="like.js"></script>
+
+    </head>
+
+    <body>
+
+        <nav class="navigation_bar">
+            <div class = logo><a href="about_me.html">Sujay Belsare</a></div>
+            <ul>
+                <li><a href="about_me.html">About Me</a></li>
+                <li><a href="academics.html">Educational Background</a></li>
+                <li ><a href="achievements.html">Achievements</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li class="mode-switch">
+                    <label class="switch">
+                        <input type="checkbox" id="modeSwitch" onchange="saveSliderPosition()">
+                        <span class="slider round">
+                            <img src="images/moon.gif" alt="Moon Icon" class="moon-icon">
+                            <img src="images/sun.gif" alt="Sun Icon" class="sun-icon">
+                        </span>
+                    </label>
+                </li>
+            </ul>                    
+        </nav>
+
+        <main class="main-container">
+            <div class="blog-text">
+                <h2>BLOG 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint provident error nobis et. Fugiat quaerat facere error a sunt debitis autem, libero consectetur praesentium necessitatibus obcaecati iusto. Fuga, recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio enim veniam eius maiores dicta dolor quaerat nisi consequuntur expedita voluptatibus facilis voluptatum cupiditate exercitationem explicabo, quae molestias dolorem fuga totam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint provident error nobis et. Fugiat quaerat facere error a sunt debitis autem, libero consectetur praesentium necessitatibus obcaecati iusto. Fuga, recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio enim veniam eius maiores dicta dolor quaerat nisi consequuntur expedita voluptatibus facilis voluptatum cupiditate exercitationem explicabo, quae molestias dolorem fuga totam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint provident error nobis et. Fugiat quaerat facere error a sunt debitis autem, libero consectetur praesentium necessitatibus obcaecati iusto. Fuga, recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio enim veniam eius maiores dicta dolor quaerat nisi consequuntur expedita voluptatibus facilis voluptatum cupiditate exercitationem explicabo, quae molestias dolorem fuga totam!
+                </p>
+            </div>
+            <div class="like-button">
+                <button id="likeBtn" style="width: 100px;">LIKE</button>
+                <p id="likeCount">LIKE COUNT: 0</p>
+            </div>
+            <div class="comment-text">
+                <h2>Comments</h2>
+                <p>
+                    USER1 : Great blog! Thank you so much. Very helpful.
+                    <br><br>
+                    USER2 : OMGGG, lorem ipsum goes sooo hard
+                </p>
+            </div>
+        </main>        
+    </body>
+
+</html>

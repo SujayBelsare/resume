@@ -217,7 +217,6 @@ input:checked+.slider:before {
     left: 600px;
     width: 500px;
     height: 450px;
-
 }
 
 .text-about-me h1 {
@@ -622,4 +621,119 @@ input:checked+.slider:before {
         opacity: 0;
         transition: none;
     }
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: auto;
+}
+
+.blog-text h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+}
+
+.blog-text h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+}
+
+.blog-text p {
+    text-align: justify;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    align-self: center;
+    margin: 0;
+}
+
+.dark-mode .blog-text h1 {
+    color: white;
+}
+
+.dark-mode .blog-text h2 {
+    color: white;
+}
+
+.dark-mode .blog-text p {
+    color: white;
+}
+
+/*  */
+
+
+.comment-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+}
+
+.comment-text h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+}
+
+.comment-text h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+}
+
+.comment-text p {
+    text-align: justify;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    align-self: center;
+    margin: 0;
+}
+
+.dark-mode .comment-text h1 {
+    color: white;
+}
+
+.dark-mode .comment-text h2 {
+    color: white;
+}
+
+.dark-mode .comment-text p {
+    color: white;
+}
+
+/*  */
+
+.like-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
 }
