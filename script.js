@@ -59,4 +59,3 @@ window.onload = function () {
 };
 
 document.getElementById('modeSwitch').addEventListener('change', saveSliderPosition);
-

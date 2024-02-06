@@ -737,3 +737,28 @@ input:checked+.slider:before {
     width: 300px;
     height: auto;
 }
+
+
+/*  */
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.blog-box {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.blog-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
