@@ -6,7 +6,7 @@ function changeMode() {
     var logo3 = document.getElementById("linkedin_logo")
     var logo4 = document.getElementById("mail_logo")
 
-    
+
     if (localStorage.getItem('sliderPosition') === 'right') {
         element.classList.add("dark-mode");
         image.src = "images/sujay2.jpg";
@@ -15,8 +15,7 @@ function changeMode() {
         logo3.src = "images/linkedin2.png"
         logo4.src = "images/mail2.png"
     }
-    else
-    {
+    else {
         element.classList.remove("dark-mode");
         image.src = "images/sujay1.jpg";
         logo1.src = "images/github1.png"
@@ -38,7 +37,7 @@ function saveSliderPosition() {
         localStorage.setItem('sliderPosition', 'left');
     }
 
-    changeMode(); // Call the changeMode function to apply the mode immediately
+    changeMode(); 
 }
 
 function retrieveSliderPosition() {
@@ -52,12 +51,11 @@ function retrieveSliderPosition() {
         document.querySelector('.slider').classList.remove('saved');
     }
 
-    changeMode(); // Call the changeMode function to apply the mode immediately
+    changeMode();
 }
 
 window.onload = function () {
     retrieveSliderPosition();
 };
 
-// Adding event listener for mode switch
 document.getElementById('modeSwitch').addEventListener('change', saveSliderPosition);
